@@ -11,7 +11,7 @@ def init_dirs():
         os.makedirs(auto_datacopy_remember_dir)
 
 # 为 API 提供的功能函数
-def replacedata_action_forapi(filename=None):
+def replacedata_action_forapi(filename):
     # 获取当前系统登录用户名
     sys_user_name = getpass.getuser()
     print(f"系统信息:\n用户名 -- {sys_user_name}")
